@@ -1,0 +1,11 @@
+Os comando utilizados:
+git init AtvGit
+cd ~/Desktop/AtvGit/
+git config user.name "Higo Pontes"
+git config user.email "Ponteshigo707@gmail.com"
+git config --list -local
+touch arq.txt
+git add arq.txt
+git status
+git remote add curso-git-embarcatech https://github.com/HigoPontes/curso-git-embacatech 
+git push -set-upstream curso-git-embarcatech master
